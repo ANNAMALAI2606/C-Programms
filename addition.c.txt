@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+	char a[10],b[10];
+	printf("\nenter two numbers:");
+	scanf("%s%s",&a,&b);
+
+    printf("%s%s is addition result",a,b);
+	
+	
+/*	float a,b;
+	printf("\nenter two numbers:");
+	scanf("%f%f",&a,&b);
+	float c=a+b;
+    printf("%f is addition result",c);
+    
+	int a,b;
+	printf("\nenter two numbers:");
+	scanf("%d%d",&a,&b);
+	int c=a+b;
+    printf("%d is addition result",c);*/
+    return 0;
+}
